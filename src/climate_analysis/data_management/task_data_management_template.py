@@ -4,13 +4,13 @@ import pandas as pd
 import pytask
 
 from climate_analysis.config import BLD, SRC
-from climate_analysis.data_management.stats4schools_smoking_template import (
+from climate_analysis.data_management.data_cleaning import (
     clean_stats4schools_smoking,
 )
 
 
 def task_clean_stats4schools_smoking_data(
-    script=SRC / "data_management" / "stats4schools_smoking_template.py",
+    script=SRC / "data_management" / "data_cleaning.py",
     data=SRC / "data" / "stats4schools_smoking_template.csv",
     produces=BLD / "data" / "stats4schools_smoking.pickle",
 ):

@@ -1,6 +1,6 @@
-@Unpublished{DOE2024,
-    Title  = "EXAMPLE PROJECT",
-    Author = "JANE DOE",
+@Unpublished{Abraham2025,
+    Title  = "Climate Econ Analysis",
+    Author = "Arpita Mary Abraham",
     Year   = "2024",
-    Url    = "https://github.com/opensourceeconomics/econ-project-templates",
+    Url    = "https://github.com/arpitaabraham/climate_analysis",
 }

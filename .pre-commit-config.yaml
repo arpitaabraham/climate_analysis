@@ -72,6 +72,7 @@ repos:
     rev: v2.3.0
     hooks:
       - id: codespell
+        args: ['--ignore-words-list=AFE,CAF,FRO,NAM,SOM,THA,Nam']
   - repo: local
     hooks:
       - id: forbid-to-commit
