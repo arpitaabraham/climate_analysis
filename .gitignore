@@ -13,6 +13,8 @@
 # R
 .RData
 .Rhistory
+*.R
+*.Rproj
 
 # bld
 bld/
@@ -39,5 +41,3 @@ docs_template/scripts/latex/*.png
 
 # local
 .vscode
-venv/
-venv/
